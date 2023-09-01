@@ -27,10 +27,12 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
+import Habit from './Habit'
+
 
 const navigation = [
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
-  { name: 'Habit Tracker', href: '#', icon: UsersIcon, current: false },
+  { name: 'Habit Tracker', href: '/Habit.js', icon: UsersIcon, current: false },
   { name: 'Community', href: '#', icon: FolderIcon, current: false },
   { name: 'Marketplace', href: '#', icon: CalendarIcon, current: false },
   { name: 'Touch Grass', href: '#', icon: DocumentDuplicateIcon, current: false },
