@@ -61,6 +61,7 @@ export default function Example() {
         <body class="h-full">
         ```
       */}
+
       <div>
         <Transition.Root show={sidebarOpen} as={Fragment}>
           <Dialog as="div" className="relative z-50 lg:hidden" onClose={setSidebarOpen}>
